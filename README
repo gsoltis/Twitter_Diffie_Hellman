@@ -1,0 +1,8 @@
+A simple proof-of-concept for using Diffie-Hellman key exchange to establish a secure channel over twitter.
+
+A full implementation would include better security parameters, the ability to converse back and forth, 
+and tolerance for looking backwards in the timeline.
+
+The current implementation sends the string 'secret twitter message' from alice to bob and relies on the streaming API for messages going forward.
+
+Also, the project depends on the Tweepy library for twitter integration.
